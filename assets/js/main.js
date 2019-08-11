@@ -108,7 +108,7 @@
 			}
 
 		// IE: Various fixes.
-			if (browser.name == 'ie') {
+			if (browser.name === 'ie') {
 
 				// Enable IE mode.
 					$body.addClass('is-ie');
@@ -279,7 +279,7 @@
 							if ((pX || pY)
 							&&	event.deltaMode) {
 
-								if (event.deltaMode == 1) {
+								if (event.deltaMode === 1) {
 									pX *= lineHeight;
 									pY *= lineHeight;
 								}
@@ -323,7 +323,7 @@
 
 						// Calculate delta, direction.
 							var	n = normalizeWheel(event.originalEvent),
-								x = (n.pixelX != 0 ? n.pixelX : n.pixelY),
+								x = (n.pixelX !== 0 ? n.pixelX : n.pixelY),
 								delta = Math.min(Math.abs(x), 150) * settings.scrollWheel.factor,
 								direction = x > 0 ? 1 : -1;
 
@@ -597,8 +597,8 @@
 					$target, x, y;
 
 				// Get target.
-					if (href == '#'
-					||	($target = $(href)).length == 0)
+					if (href === '#'
+					||	($target = $(href)).length === 0)
 						return;
 
 				// Prevent default.
