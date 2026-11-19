@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yoseidy Perez — Flutter & Full Stack Developer | Colombia</title>
+<meta name="description" content="Desarrolladora Flutter y Full Stack: apps para iPhone y Android publicadas en App Store y Google Play, paneles web y APIs. 9 años de experiencia. Envigado, Colombia · Remoto y freelance.">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Yoseidy Perez — Flutter & Full Stack Developer">
+<meta property="og:description" content="Apps móviles, paneles web y APIs de punta a punta.">
+<meta property="og:image" content="assets/yoseidy-og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#07060B">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="apple-touch-icon" href="assets/favicon.svg">
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "ProfilePage",
+  "mainEntity": { "@type": "Person", "name": "Yoseidy Perez", "jobTitle": "Flutter & Full Stack Developer",
+    "address": { "@type": "PostalAddress", "addressLocality": "Envigado", "addressCountry": "CO" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Universidad Centroccidental Lisandro Alvarado" },
+    "worksFor": { "@type": "Organization", "name": "2becommerce" },
+    "knowsAbout": ["Flutter","Dart","Vue.js","Angular","Node.js","MongoDB","Firebase","Shopify API","App Store","Google Play"],
+    "sameAs": ["https://www.linkedin.com/in/yoseidy-perez-6928ab17a","https://github.com/yoseidy","https://medium.com/@yoseidy93"] } }
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <a href="#top" class="nav__logo">yoseidy<span class="nav__dot">.dev</span></a>
+  <div class="nav__links">
+    <a href="#work" data-i18n="nav.work">Proyectos</a>
+    <a href="#experience" data-i18n="nav.exp">Experiencia</a>
+    <a href="#about" data-i18n="nav.about">Sobre mí</a>
+    <a href="#freelance" data-i18n="nav.free">Freelance</a>
+    <a href="#cv">CV</a>
+  </div>
+  <button class="lang" id="langBtn" aria-label="Idioma / Language"><span data-l="es">ES</span><span data-l="en">EN</span></button>
+  <a href="#contact" class="btn btn--light btn--sm" data-i18n="nav.cta">Hablemos →</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Menú" aria-expanded="false"><i></i></button>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="top">
+  <div class="hero__inner">
+    <div class="hero__text">
+      <span class="pill"><i class="dot dot--green"></i><span data-i18n="hero.chip">Disponible · Remoto y freelance</span></span>
+      <h1 class="hero__name">Yoseidy Perez</h1>
+      <p class="hero__role grad">Flutter & Full Stack Developer</p>
+      <p class="hero__lead" data-i18n="hero.lead">Diseño, desarrollo y <b>publico apps en App Store y Google Play</b>, junto con el panel web y la API que las sostienen. 9 años construyendo productos que hoy usan clientes reales.</p>
+      <div class="paths">
+        <a href="#work" class="path"><small data-i18n="hero.p1s">¿Buscas talento para tu equipo?</small><b data-i18n="hero.p1b">Ver proyectos y experiencia →</b></a>
+        <a href="#freelance" class="path"><small data-i18n="hero.p2s">¿Tienes un proyecto?</small><b data-i18n="hero.p2b">Ver servicios freelance →</b></a>
+      </div>
+      <ul class="metrics">
+        <li><b>9+</b><span data-i18n="hero.m1">años en producción</span></li>
+        <li><b>5</b><span data-i18n="hero.m2">apps publicadas</span></li>
+        <li><b>3</b><span data-i18n="hero.m3">países: VE · PA · CO</span></li>
+      </ul>
+    </div>
+    <div class="hero__scene" id="heroScene">
+      <div class="demo" id="demo">
+        <div class="demo__phone"><span class="demo__notch"></span><div class="demo__screen" aria-live="polite"></div></div>
+        <p class="demo__hint mono">Toca la app · demo hecha por mí en HTML, CSS y JS</p>
+      </div>
+      <div class="float float--status" data-depth="1.4">
+        <span class="okic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#34D399" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <span><b data-i18n="hero.f1">Publicada y en uso</b><small class="mono">App Store · Google Play</small></span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- STRIP -->
+<div class="strip">
+  <span class="mono muted" data-i18n="strip">STACK EN PRODUCCIÓN</span>
+  <div class="strip__track"><span>Flutter</span><span>Dart</span><span>Vue 3</span><span>Angular</span><span>Node.js</span><span>MongoDB</span><span>Firebase</span><span>Shopify</span><span>Socket.IO</span><span>Claude Code</span><span>Flutter</span><span>Dart</span><span>Vue 3</span><span>Angular</span><span>Node.js</span><span>MongoDB</span><span>Firebase</span><span>Shopify</span><span>Socket.IO</span><span>Claude Code</span></div>
+</div>
+
+<!-- WORK: casos de estudio -->
+<section class="section" id="work">
+  <p class="kicker"><i></i><span data-i18n="wk.k">PROYECTOS</span></p>
+  <h2 class="h2"><span data-i18n="wk.t1">Trabajo en producción.</span> <span class="grad-soft" data-i18n="wk.t2">Qué había que resolver y cómo lo resolví.</span></h2>
+
+  <article class="case reveal">
+    <div class="case__media case__media--kiosk">
+      <figure class="frame frame--tablet"><img data-crop="47,90,379,723" src="assets/screen-frame.jpg" alt="Pantalla real del kiosko SCREEN en una tienda" loading="lazy"></figure>
+    </div>
+    <div class="case__text">
+      <p class="case__k mono"><span data-i18n="c0.k">Kiosko para tienda física</span> · 2becommerce</p>
+      <h3>SCREEN <em>(ShowMee)</em></h3>
+      <p class="case__sum" data-i18n="c0.s">Un sistema para vender en tienda física desde una tablet: la app kiosko, el panel web y la API que los conecta.</p>
+      <dl class="case__dl">
+        <div><dt data-i18n="cs.need">El reto</dt><dd data-i18n="c0.d1">Cada tienda necesitaba su propia marca, moneda, impuestos y métodos de pago, sin mantener una app distinta por cliente.</dd></div>
+        <div><dt data-i18n="cs.did">Lo que hice</dt><dd data-i18n="c0.d2">Diseñé una arquitectura multi-tenant: dar de alta una tienda es configuración en el panel, no desarrollo nuevo. Construí la app Flutter, el panel en Vue 3 y la API en Node.js.</dd></div>
+        <div><dt data-i18n="cs.res">Cómo funciona</dt><dd data-i18n="c0.d3">El cliente paga escaneando un QR desde su móvil y la tablet lo confirma al instante. Las tablets se gestionan a distancia en modo kiosko.</dd></div>
+      </dl>
+      <div class="tags"><span>Flutter · GetX</span><span>Vue 3</span><span>Node.js</span><span>Socket.IO</span><span>Shopify API</span><span>Android Management</span></div>
+    </div>
+  </article>
+
+  <article class="case case--flip reveal">
+    <div class="case__media">
+      <figure class="frame frame--phone"><img data-crop="100,190,468,1080" src="assets/steii-play.webp" alt="Pantalla real de la app STEII" loading="lazy"></figure>
+      <figure class="frame frame--phone frame--back"><img data-crop="92,480,486,960" src="assets/apps/steii-1.webp" alt="Reserva de amenidades en la app STEII" loading="lazy"></figure>
+    </div>
+    <div class="case__text">
+      <p class="case__k mono"><span data-i18n="c1.k">Arrendamiento y servicios para edificios</span> · Kiin</p>
+      <h3>STEII</h3>
+      <p class="case__sum" data-i18n="c1.s">App para iPhone y Android con la que los residentes reservan amenidades y pagan desde el móvil.</p>
+      <dl class="case__dl">
+        <div><dt data-i18n="cs.need">El reto</dt><dd data-i18n="c1.d1">Una misma app debía servir a varios edificios, cada uno con sus servicios, horarios e idioma.</dd></div>
+        <div><dt data-i18n="cs.did">Lo que hice</dt><dd data-i18n="c1.d2">El ciclo completo: diseño, desarrollo, publicación y mantenimiento. Reservas con calendario y horarios, pago con tarjeta, Google Maps y multi-idioma.</dd></div>
+        <div><dt data-i18n="cs.res2">Resultado</dt><dd data-i18n="c1.d3">Una sola base de código reutilizada en varias propiedades, con su propio panel de administración y motor de reservas.</dd></div>
+      </dl>
+      <div class="tags"><span>Flutter</span><span>go_router</span><span>Google Maps</span><span>Node.js</span><span>MongoDB</span><span>Vue 3</span></div>
+    </div>
+  </article>
+
+  <article class="case reveal">
+    <div class="case__media">
+      <figure class="frame frame--phone"><img data-crop="86,302,493,1066" src="assets/snatched-home.webp" alt="Pantalla real de la app Snatched Body" loading="lazy"></figure>
+      <figure class="frame frame--phone frame--back"><img data-crop="91,317,488,1037" src="assets/salome-category.webp" alt="Catálogo por categorías en la app Fajas Salomé" loading="lazy"></figure>
+    </div>
+    <div class="case__text">
+      <p class="case__k mono">Snatched Body · Fajas Salomé · 2becommerce</p>
+      <h3 data-i18n="c2.t">Apps para tiendas Shopify</h3>
+      <p class="case__sum" data-i18n="c2.s">Apps de compra para marcas de moda, conectadas a su tienda Shopify.</p>
+      <dl class="case__dl">
+        <div><dt data-i18n="cs.need">El reto</dt><dd data-i18n="c2.d1">Vender desde una app propia sin duplicar el catálogo, los pedidos ni los clientes que ya estaban en Shopify.</dd></div>
+        <div><dt data-i18n="cs.did">Lo que hice</dt><dd data-i18n="c2.d2">Integré Shopify Admin API (REST y GraphQL) para catálogo por categorías, tallas, carrito y pedidos, con pagos y notificaciones push.</dd></div>
+        <div><dt data-i18n="cs.res2">Resultado</dt><dd data-i18n="c2.d3">Publicadas en App Store y Google Play y sincronizadas con la tienda en línea de cada marca.</dd></div>
+      </dl>
+      <div class="tags"><span>Flutter</span><span>Shopify Admin API</span><span>Firebase · FCM</span><span>App Store · Google Play</span></div>
+    </div>
+  </article>
+
+  <article class="case case--flip reveal">
+    <div class="case__media">
+      <figure class="frame frame--phone"><img data-crop="86,324,499,1067" src="assets/catalog-product.webp" alt="Ficha de producto en la app Cata1og" loading="lazy"></figure>
+      <figure class="frame frame--phone frame--back"><img src="assets/catalog-splash.webp" alt="Pantalla de inicio de la app Cata1og" loading="lazy"></figure>
+    </div>
+    <div class="case__text">
+      <p class="case__k mono"><span data-i18n="c3.k">Multitienda mayorista</span> · 2becommerce</p>
+      <h3>Cata1og</h3>
+      <p class="case__sum" data-i18n="c3.s">Una app mayorista que reúne varias marcas colombianas de fajas, shapewear y jeans en un solo catálogo.</p>
+      <dl class="case__dl">
+        <div><dt data-i18n="cs.need">El reto</dt><dd data-i18n="c3.d1">Los negocios compran por volumen y a varias marcas a la vez, con precios distintos a los del cliente final.</dd></div>
+        <div><dt data-i18n="cs.did">Lo que hice</dt><dd data-i18n="c3.d2">App Flutter multitienda con precios por volumen y pedidos para negocios.</dd></div>
+        <div><dt data-i18n="cs.res2">Resultado</dt><dd data-i18n="c3.d3">Publicada en App Store y Google Play.</dd></div>
+      </dl>
+      <div class="tags"><span>Flutter</span><span data-i18n="c3.t1">Multitienda</span><span data-i18n="c3.t2">Precios por volumen</span><span>App Store · Google Play</span></div>
+    </div>
+  </article>
+  <p class="work__note mono muted" data-i18n="wk.note">// todas las pantallas son capturas reales de las apps publicadas</p>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section" id="experience">
+  <p class="kicker"><i></i><span data-i18n="ex.k">EXPERIENCIA</span></p>
+  <h2 class="h2"><span data-i18n="ex.t1">9 años construyendo producto.</span> <span class="grad-soft" data-i18n="ex.t2">De frontend a producto completo.</span></h2>
+  <ol class="timeline" id="timeline"><span class="timeline__line"><span class="timeline__fill" id="tlFill"></span></span>
+    <li class="tl reveal"><span class="tl__dot"></span><p class="mono tl__date" data-i18n="ex.d1">dic 2022 — hoy</p>
+      <div><h3>Flutter & Frontend Developer</h3><p class="tl__co">2becommerce · Envigado, Colombia</p>
+      <p class="muted" data-i18n="ex.p1">Diseño, desarrollo y publico apps Flutter (retail, kiosko y reservas). Construyo las tres capas de cada producto: API en Node.js, panel en Vue 3 y app Flutter con Clean Architecture. Pagos, Shopify Admin API, tiempo real con Socket.IO y push con FCM.</p>
+      <div class="tags"><span>Flutter</span><span>Vue 3</span><span>Node.js</span><span>MongoDB</span><span>Socket.IO</span><span>Shopify</span></div></div></li>
+    <li class="tl reveal"><span class="tl__dot"></span><p class="mono tl__date" data-i18n="ex.d2">ene 2019 — dic 2022</p>
+      <div><h3>Front-End Developer</h3><p class="tl__co" data-i18n="ex.co2">Grupo Ari · Ciudad de Panamá</p>
+      <p class="muted" data-i18n="ex.p2">Plataformas web en Angular y Laravel para tiendas retail, apps híbridas con Ionic y backend en Django. Lideré “Ofrece tu Talento”, un portal de empleo.</p>
+      <div class="tags"><span>Angular</span><span>Laravel</span><span>Ionic</span><span>Django</span></div></div></li>
+    <li class="tl reveal"><span class="tl__dot"></span><p class="mono tl__date">2017 — 2019</p>
+      <div><h3 data-i18n="ex.r3">Desarrolladora Web Freelance</h3><p class="tl__co" data-i18n="ex.co3">Independiente · Panamá</p><p class="muted" data-i18n="ex.p3">Proyectos web, frontend y soporte técnico para clientes independientes.</p></div></li>
+    <li class="tl reveal"><span class="tl__dot"></span><p class="mono tl__date">2021</p>
+      <div><h3 data-i18n="ex.r4">Ingeniería Informática</h3><p class="tl__co">Univ. Centroccidental Lisandro Alvarado · Venezuela</p></div></li>
+  </ol>
+</section>
+
+<!-- ABOUT + IA -->
+<section class="section about" id="about">
+  <div class="about__photo" id="photoWrap">
+    <canvas id="photoGL" aria-hidden="true"></canvas>
+    <img id="photoImg" src="assets/avatar-cutout.png" alt="Avatar 3D de Yoseidy Perez, desarrolladora Flutter y Full Stack" width="1047" height="1008">
+  </div>
+  <div class="about__text">
+    <p class="kicker"><i></i><span data-i18n="ab.k">SOBRE MÍ</span></p>
+    <h2 class="h2"><span data-i18n="ab.t1">Producto completo,</span> <span class="grad-soft" data-i18n="ab.t2">una sola persona.</span></h2>
+    <p class="lead" data-i18n="ab.p">Soy Yoseidy, Ingeniera Informática. Empecé en el frontend hace 9 años y fui creciendo hasta encargarme de productos completos: hoy, en 2becommerce, diseño la app Flutter, el panel en Vue y la API en Node, y me ocupo de que lleguen a <b>App Store y Google Play</b> y se mantengan al día.</p>
+    <p class="lead" data-i18n="ab.p2">He trabajado en Venezuela, Panamá y Colombia, para tiendas de moda, edificios residenciales y mayoristas. Me gusta entender el negocio antes de escribir código, explicar las cosas sin tecnicismos y entregar algo que la gente realmente use.</p>
+    <dl class="facts">
+      <div><dt class="mono" data-i18n="ab.f1">ubicación</dt><dd>Envigado, Colombia</dd></div>
+      <div><dt class="mono" data-i18n="ab.f2">modalidad</dt><dd data-i18n="ab.v2">Remoto · Freelance</dd></div>
+      <div><dt class="mono" data-i18n="ab.f3">formación</dt><dd data-i18n="ab.v3">Ing. Informática · UCLA ’21</dd></div>
+      <div><dt class="mono" data-i18n="ab.f4">idiomas</dt><dd data-i18n="ab.v4">ES nativo · EN técnico básico</dd></div>
+      <div><dt class="mono">medium</dt><dd><a href="https://medium.com/@yoseidy93" target="_blank" rel="noopener" data-i18n="ab.med">Escribo sobre Flutter ↗</a></dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="section ai" id="ai">
+  <p class="kicker"><i></i><span data-i18n="ai.k">IA APLICADA</span></p>
+  <h2 class="h2"><span data-i18n="ai.t1">Desarrollo con agentes,</span> <span class="grad-soft" data-i18n="ai.t2">criterio humano.</span></h2>
+  <p class="lead" data-i18n="ai.lead">Programo con agentes de IA todos los días. La diferencia no está en usarlos, sino en saber revisar lo que entregan: nada llega a producción sin que yo lo lea, lo pruebe y lo corrija.</p>
+  <ol class="flow reveal">
+    <li><span class="flow__n mono">01</span><b data-i18n="ai.f1t">Entiendo y planifico</b><p class="muted" data-i18n="ai.f1">Defino con el cliente qué se construye y cómo, antes de tocar código.</p></li>
+    <li><span class="flow__n mono">02</span><b data-i18n="ai.f2t">El agente propone</b><p class="muted" data-i18n="ai.f2">Uso Claude Code para acelerar la implementación y la documentación.</p></li>
+    <li><span class="flow__n mono">03</span><b data-i18n="ai.f3t">Yo reviso y corrijo</b><p class="muted" data-i18n="ai.f3">Leo cada cambio, compruebo que funcione en la app y corrijo lo que no cumple. Nada entra sin mi aprobación.</p></li>
+    <li><span class="flow__n mono">04</span><b data-i18n="ai.f4t">Entrego y publico</b><p class="muted" data-i18n="ai.f4">Más rápido, sin sacrificar calidad: a tiempo en las tiendas y con el código ordenado.</p></li>
+  </ol>
+</section>
+
+<!-- FREELANCE: servicios + proceso + preguntas -->
+<section class="section" id="freelance">
+  <p class="kicker"><i></i><span data-i18n="fr.k">FREELANCE</span></p>
+  <h2 class="h2"><span data-i18n="fr.t1">¿Tienes un proyecto?</span> <span class="grad-soft" data-i18n="fr.t2">Lo llevo de la idea a la tienda.</span></h2>
+  <p class="lead" data-i18n="sv.lead">Trabajo con empresas, agencias y emprendedores, de forma remota o freelance. Puedo tomar el proyecto completo o sumarme a tu equipo.</p>
+  <div class="services">
+    <article class="service reveal"><h3 data-i18n="sv.1t">App móvil a medida</h3><p class="muted" data-i18n="sv.1">Tu app para iPhone y Android con Flutter: un solo código, diseño cuidado, login, pagos, notificaciones y lo que tu negocio necesite.</p></article>
+    <article class="service reveal"><h3 data-i18n="sv.2t">Publicación en App Store y Google Play</h3><p class="muted" data-i18n="sv.2">Me encargo de todo el proceso: cuentas de desarrollador, fichas, capturas, políticas, revisiones de Apple y Google, y actualizaciones, acompañándote en cada revisión.</p></article>
+    <article class="service reveal"><h3 data-i18n="sv.3t">Tu tienda Shopify como app</h3><p class="muted" data-i18n="sv.3">Convierto tu tienda Shopify en una app nativa conectada a tus productos, pedidos y pagos, con notificaciones push para vender más.</p></article>
+    <article class="service reveal"><h3 data-i18n="sv.4t">Panel web y API</h3><p class="muted" data-i18n="sv.4">El panel de administración (Vue o Angular) y la API (Node.js) para gestionar usuarios, pedidos, reservas, contenido y pagos.</p></article>
+    <article class="service reveal"><h3 data-i18n="sv.5t">Kioscos y apps para tienda física</h3><p class="muted" data-i18n="sv.5">Tablets en modo kiosko para que tus clientes compren y paguen en tienda con QR o datáfono, gestionadas a distancia.</p></article>
+    <article class="service reveal"><h3 data-i18n="sv.6t">Mantenimiento y mejoras</h3><p class="muted" data-i18n="sv.6">Rescato y actualizo apps existentes: versiones nuevas de Flutter, errores, rendimiento y nuevas funciones, con IA para avanzar más rápido.</p></article>
+  </div>
+
+  <h3 class="sub" data-i18n="fr.proc">Cómo trabajamos</h3>
+  <ol class="process">
+    <li><span class="mono">01</span><b data-i18n="pr.1t">Conversamos</b><p class="muted" data-i18n="pr.1">Una llamada sin costo para entender tu negocio, tu idea y lo que necesitas lograr.</p></li>
+    <li><span class="mono">02</span><b data-i18n="pr.2t">Propuesta</b><p class="muted" data-i18n="pr.2">Te envío por escrito qué haremos, en cuánto tiempo y cuánto cuesta. Sin letra pequeña.</p></li>
+    <li><span class="mono">03</span><b data-i18n="pr.3t">Diseño</b><p class="muted" data-i18n="pr.3">Ves las pantallas principales antes de programar y las ajustamos juntos.</p></li>
+    <li><span class="mono">04</span><b data-i18n="pr.4t">Desarrollo</b><p class="muted" data-i18n="pr.4">Avances frecuentes que puedes probar en tu propio teléfono.</p></li>
+    <li><span class="mono">05</span><b data-i18n="pr.5t">Publicación</b><p class="muted" data-i18n="pr.5">Subo tu app a App Store y Google Play y te acompaño en las revisiones.</p></li>
+    <li><span class="mono">06</span><b data-i18n="pr.6t">Soporte</b><p class="muted" data-i18n="pr.6">Sigo contigo después del lanzamiento: mejoras, actualizaciones y nuevas funciones.</p></li>
+  </ol>
+
+  <h3 class="sub" data-i18n="fr.faq">Preguntas frecuentes</h3>
+  <div class="faq">
+    <details class="faq__item"><summary data-i18n="fq.1q">¿Cuánto tiempo toma hacer una app?</summary><p class="muted" data-i18n="fq.1a">Depende de lo que necesites. Después de la primera llamada te doy una estimación concreta por escrito, dividida por etapas, para que sepas qué recibes y cuándo.</p></details>
+    <details class="faq__item"><summary data-i18n="fq.2q">¿Te encargas de publicarla en App Store y Google Play?</summary><p class="muted" data-i18n="fq.2a">Sí. Te guío para crear las cuentas de desarrollador a nombre de tu empresa, preparo la ficha, las capturas y las políticas, y gestiono las revisiones de Apple y Google hasta que la app queda publicada.</p></details>
+    <details class="faq__item"><summary data-i18n="fq.3q">¿La app y el código son míos?</summary><p class="muted" data-i18n="fq.3a">Sí. Las cuentas de las tiendas, el código y los accesos quedan a tu nombre desde el principio.</p></details>
+    <details class="faq__item"><summary data-i18n="fq.4q">¿Qué pasa después del lanzamiento?</summary><p class="muted" data-i18n="fq.4a">Puedo seguir contigo con mantenimiento: corregir errores, actualizar a nuevas versiones de iOS y Android y agregar funciones nuevas cuando las necesites.</p></details>
+    <details class="faq__item"><summary data-i18n="fq.5q">¿Ya tengo una app, puedes mejorarla?</summary><p class="muted" data-i18n="fq.5a">Claro. Reviso el código, te digo con honestidad en qué estado está y propongo cómo mejorarla o actualizarla.</p></details>
+    <details class="faq__item"><summary data-i18n="fq.6q">¿Trabajas sola o con mi equipo?</summary><p class="muted" data-i18n="fq.6a">De las dos formas: puedo llevar el proyecto completo o sumarme a tu equipo como desarrolladora Flutter o frontend.</p></details>
+  </div>
+  <div class="services__cta"><a href="#contact" class="btn btn--accent" data-i18n="sv.cta">Cuéntame tu proyecto →</a><span class="muted" data-i18n="sv.ctas">Cotización sin compromiso</span></div>
+</section>
+
+<!-- TESTIMONIALS (se muestra solo si js/testimonials.js tiene datos) -->
+<section class="section" id="testimonials" hidden>
+  <p class="kicker"><i></i><span data-i18n="ts.k">TESTIMONIOS</span></p>
+  <h2 class="h2"><span data-i18n="ts.t1">Lo que dicen</span> <span class="grad-soft" data-i18n="ts.t2">quienes han trabajado conmigo</span></h2>
+  <div class="testis" id="testisGrid"></div>
+</section>
+
+<!-- CV -->
+<section class="section" id="cv">
+  <p class="kicker"><i></i><span data-i18n="cv.k">CURRÍCULUM</span></p>
+  <h2 class="h2"><span data-i18n="cv.t1">Descarga mi CV.</span> <span class="grad-soft" data-i18n="cv.t2">Tres versiones según el puesto.</span></h2>
+  <p class="lead" data-i18n="cv.lead">Se descargan en el idioma en que estás viendo la página.</p>
+  <div class="cvs">
+    <a class="cvcard reveal" data-cv="FullStack" download><span class="mono badge">PDF · <span class="cvlang">ES</span></span><h3>Full Stack</h3><p class="muted" data-i18n="cv.fs">Mobile, frontend y backend: el perfil completo.</p><span class="link" data-i18n="cv.dl">Descargar ↓</span></a>
+    <a class="cvcard reveal" data-cv="Mobile_Flutter" download><span class="mono badge">PDF · <span class="cvlang">ES</span></span><h3>Mobile · Flutter</h3><p class="muted" data-i18n="cv.mb">Apps iOS/Android, arquitectura y publicación.</p><span class="link" data-i18n="cv.dl">Descargar ↓</span></a>
+    <a class="cvcard reveal" data-cv="Frontend" download><span class="mono badge">PDF · <span class="cvlang">ES</span></span><h3>Frontend</h3><p class="muted" data-i18n="cv.fe">Vue 3, Angular, paneles y tiempo real.</p><span class="link" data-i18n="cv.dl">Descargar ↓</span></a>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact" id="contact">
+  <p class="kicker"><i></i><span data-i18n="ct.k">CONTACTO</span></p>
+  <h2 class="h2 h2--xl"><span data-i18n="ct.t1">¿Construimos algo</span> <span class="grad-soft" data-i18n="ct.t2">juntos?</span></h2>
+  <div class="contact__grid">
+    <dl class="facts facts--contact">
+      <div><dt class="mono">email</dt><dd><a href="mailto:yoseidy93@gmail.com">yoseidy93@gmail.com</a></dd></div>
+      <div><dt class="mono">whatsapp</dt><dd><a href="https://wa.me/573126586157" target="_blank" rel="noopener">+57 312 658 6157</a></dd></div>
+      <div><dt class="mono">linkedin</dt><dd><a href="https://www.linkedin.com/in/yoseidy-perez-6928ab17a" target="_blank" rel="noopener">in/yoseidy-perez</a></dd></div>
+      <div><dt class="mono">github</dt><dd><a href="https://github.com/yoseidy" target="_blank" rel="noopener">github.com/yoseidy</a></dd></div>
+    </dl>
+    <!-- Envío directo al correo con FormSubmit (sin cuenta). La primera vez llega un correo de activación. -->
+    <form class="form" id="contactForm" action="https://formsubmit.co/ajax/yoseidy93@gmail.com" method="POST" novalidate>
+      <div class="form__row">
+        <label><span data-i18n="ct.name">Nombre</span><input name="nombre" required autocomplete="name"></label>
+        <label><span>Email</span><input name="email" type="email" required autocomplete="email"></label>
+      </div>
+      <label><span data-i18n="ct.type">¿En qué te ayudo?</span>
+        <select name="tipo">
+          <option data-i18n="ct.o5">Oferta de empleo</option>
+          <option data-i18n="ct.o1">Una app nueva</option>
+          <option data-i18n="ct.o2">Publicar mi app en App Store / Google Play</option>
+          <option data-i18n="ct.o3">Panel web o API</option>
+          <option data-i18n="ct.o4">Mejorar o mantener una app existente</option>
+          <option data-i18n="ct.o6">Otra cosa</option>
+        </select></label>
+      <label><span data-i18n="ct.msg">Mensaje</span><textarea name="mensaje" rows="5" required data-i18n-ph="ct.msgph" placeholder="Cuéntame tu idea, plazos y lo que tengas en mente…"></textarea></label>
+      <label class="form__check"><input type="checkbox" id="wantCall" name="quiere_llamada" value="sí"><span data-i18n="ct.call">Prefiero una llamada o videollamada</span></label>
+      <div class="form__call" id="callFields" hidden>
+        <div class="form__row">
+          <label><span data-i18n="ct.when">Día y hora que te queda bien</span><input type="datetime-local" name="fecha_llamada"></label>
+          <label><span data-i18n="ct.phone">WhatsApp o teléfono (opcional)</span><input type="tel" name="telefono" autocomplete="tel"></label>
+        </div>
+        <p class="muted form__hint" data-i18n="ct.tz">Hora de Colombia (UTC−5). Te confirmo por correo o WhatsApp.</p>
+      </div>
+      <input type="text" name="_honey" class="form__hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn btn--accent" type="submit" data-i18n="ct.send">Enviar mensaje →</button>
+      <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+  <footer class="footer">
+    <p class="mono muted">© <span id="year">2026</span> Yoseidy Perez · Envigado, Colombia</p>
+  </footer>
+</section>
+
+<a class="wa-float" id="waBtn" href="https://wa.me/573126586157" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M16 3C9 3 3.3 8.6 3.3 15.6c0 2.4.7 4.7 1.9 6.7L3 29l6.9-2.2c1.9 1 4 1.6 6.1 1.6 7 0 12.7-5.6 12.7-12.6S23 3 16 3zm0 23.1c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.1 1.3 1.3-4-.3-.4c-1.1-1.7-1.7-3.6-1.7-5.6C5.4 9.8 10.2 5.2 16 5.2s10.6 4.6 10.6 10.4S21.8 26.1 16 26.1zm5.8-7.8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.7s1.2 3.2 1.4 3.4c.2.2 2.4 3.6 5.7 5 .8.3 1.4.5 1.9.7.8.2 1.5.2 2.1.1.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg><span class="wa-float__txt" data-i18n="wa.t">¿Hablamos?</span></a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/testimonials.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/demo.js"></script>
+<script src="js/main.js"></script>
+<script src="js/motion.js"></script>
+<script type="module" src="js/scenes.js"></script>
+</body>
+</html>
